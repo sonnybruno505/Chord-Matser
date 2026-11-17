@@ -1,0 +1,393 @@
+
+{
+  "C": {
+    "nome": "Dó maior",
+    "tipo": "Maior",
+    "notas": ["C", "E", "G"],
+    "posicao": [-1, 3, 2, 0, 1, 0],
+    "dedos": [0, 3, 2, 0, 1, 0],
+    "explicacao": "Acorde maior formado pelas notas C, E e G."
+  },
+  "D": {
+    "nome": "Ré maior",
+    "tipo": "Maior",
+    "notas": ["D", "F#", "A"],
+    "posicao": [-1, -1, 0, 2, 3, 2],
+    "dedos": [0, 0, 0, 1, 3, 2],
+    "explicacao": "Acorde maior formado pelas notas D, F# e A."
+  },
+  "E": {
+    "nome": "Mi maior",
+    "tipo": "Maior",
+    "notas": ["E", "G#", "B"],
+    "posicao": [0, 2, 2, 1, 0, 0],
+    "dedos": [0, 2, 3, 1, 0, 0],
+    "explicacao": "Acorde maior formado pelas notas E, G# e B."
+  },
+  "F": {
+    "nome": "Fá maior",
+    "tipo": "Maior",
+    "notas": ["F", "A", "C"],
+    "posicao": [1, 3, 3, 2, 1, 1],
+    "dedos": [1, 3, 4, 2, 1, 1],
+    "explicacao": "Acorde maior formado pelas notas F, A e C."
+  },
+  "G": {
+    "nome": "Sol maior",
+    "tipo": "Maior",
+    "notas": ["G", "B", "D"],
+    "posicao": [3, 2, 0, 0, 0, 3],
+    "dedos": [3, 2, 0, 0, 0, 4],
+    "explicacao": "Acorde maior formado pelas notas G, B e D."
+  },
+  "A": {
+    "nome": "Lá maior",
+    "tipo": "Maior",
+    "notas": ["A", "C#", "E"],
+    "posicao": [-1, 0, 2, 2, 2, 0],
+    "dedos": [0, 0, 1, 2, 3, 0],
+    "explicacao": "Acorde maior formado pelas notas A, C# e E."
+  },
+  "B": {
+    "nome": "Si maior",
+    "tipo": "Maior",
+    "notas": ["B", "D#", "F#"],
+    "posicao": [-1, 2, 4, 4, 4, 2],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde maior formado pelas notas B, D# e F#."
+  },
+  "Cm": {
+    "nome": "Dó menor",
+    "tipo": "Menor",
+    "notas": ["C", "D#", "G"],
+    "posicao": [-1, 3, 1, 0, 1, 3],
+    "dedos": [0, 3, 1, 0, 2, 4],
+    "explicacao": "Acorde menor formado pelas notas C, D# e G."
+  },
+  "Dm": {
+    "nome": "Ré menor",
+    "tipo": "Menor",
+    "notas": ["D", "F", "A"],
+    "posicao": [-1, -1, 0, 2, 3, 1],
+    "dedos": [0, 0, 0, 2, 3, 1],
+    "explicacao": "Acorde menor formado pelas notas D, F e A."
+  },
+  "Em": {
+    "nome": "Mi menor",
+    "tipo": "Menor",
+    "notas": ["E", "G", "B"],
+    "posicao": [0, 2, 2, 0, 0, 0],
+    "dedos": [0, 2, 3, 0, 0, 0],
+    "explicacao": "Acorde menor formado pelas notas E, G e B."
+  },
+  "Fm": {
+    "nome": "Fá menor",
+    "tipo": "Menor",
+    "notas": ["F", "G#", "C"],
+    "posicao": [1, 3, 3, 1, 1, 1],
+    "dedos": [1, 3, 4, 1, 1, 1],
+    "explicacao": "Acorde menor formado pelas notas F, G# e C."
+  },
+  "Gm": {
+    "nome": "Sol menor",
+    "tipo": "Menor",
+    "notas": ["G", "A#", "D"],
+    "posicao": [3, 1, 0, 0, 3, 3],
+    "dedos": [3, 1, 0, 0, 2, 4],
+    "explicacao": "Acorde menor formado pelas notas G, A# e D."
+  },
+  "Am": {
+    "nome": "Lá menor",
+    "tipo": "Menor",
+    "notas": ["A", "C", "E"],
+    "posicao": [-1, 0, 2, 2, 1, 0],
+    "dedos": [0, 0, 2, 3, 1, 0],
+    "explicacao": "Acorde menor formado pelas notas A, C e E."
+  },
+  "Bm": {
+    "nome": "Si menor",
+    "tipo": "Menor",
+    "notas": ["B", "D", "F#"],
+    "posicao": [-1, 2, 4, 4, 3, 2],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde menor formado pelas notas B, D e F#."
+  },
+  "C7": {
+    "nome": "Dó com sétima",
+    "tipo": "Sétima",
+    "notas": ["C", "E", "G", "A#"],
+    "posicao": [-1, 3, 2, 3, 1, 0],
+    "dedos": [0, 3, 2, 4, 1, 0],
+    "explicacao": "Acorde de Dó com sétima."
+  },
+  "D7": {
+    "nome": "Ré com sétima",
+    "tipo": "Sétima",
+    "notas": ["D", "F#", "A", "C"],
+    "posicao": [-1, -1, 0, 2, 1, 2],
+    "dedos": [0, 0, 0, 2, 1, 3],
+    "explicacao": "Acorde de Ré com sétima."
+  },
+  "E7": {
+    "nome": "Mi com sétima",
+    "tipo": "Sétima",
+    "notas": ["E", "G#", "B", "D"],
+    "posicao": [0, 2, 0, 1, 0, 0],
+    "dedos": [0, 2, 0, 1, 0, 0],
+    "explicacao": "Acorde de Mi com sétima."
+  },
+  "F7": {
+    "nome": "Fá com sétima",
+    "tipo": "Sétima",
+    "notas": ["F", "A", "C", "D#"],
+    "posicao": [1, 3, 1, 2, 1, 1],
+    "dedos": [1, 3, 1, 2, 1, 1],
+    "explicacao": "Acorde de Fá com sétima."
+  },
+  "G7": {
+    "nome": "Sol com sétima",
+    "tipo": "Sétima",
+    "notas": ["G", "B", "D", "F"],
+    "posicao": [3, 2, 0, 0, 0, 1],
+    "dedos": [3, 2, 0, 0, 0, 1],
+    "explicacao": "Acorde de Sol com sétima."
+  },
+  "A7": {
+    "nome": "Lá com sétima",
+    "tipo": "Sétima",
+    "notas": ["A", "C#", "E", "G"],
+    "posicao": [-1, 0, 2, 0, 2, 0],
+    "dedos": [0, 0, 2, 0, 3, 0],
+    "explicacao": "Acorde de Lá com sétima."
+  },
+  "B7": {
+    "nome": "Si com sétima",
+    "tipo": "Sétima",
+    "notas": ["B", "D#", "F#", "A"],
+    "posicao": [-1, 2, 1, 2, 0, 2],
+    "dedos": [0, 2, 1, 3, 0, 4],
+    "explicacao": "Acorde de Si com sétima."
+  },
+  
+
+  "Cm7": {
+    "nome": "Dó menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["C", "D#", "G", "A#"],
+    "posicao": [-1, 3, 1, 3, 1, 3],
+    "dedos": [0, 3, 1, 4, 2, 4],
+    "explicacao": "Acorde de Dó menor com sétima."
+  },
+  "Dm7": {
+    "nome": "Ré menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["D", "F", "A", "C"],
+    "posicao": [-1, -1, 0, 2, 1, 1],
+    "dedos": [0, 0, 0, 2, 1, 1],
+    "explicacao": "Acorde de Ré menor com sétima."
+  },
+  "Em7": {
+    "nome": "Mi menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["E", "G", "B", "D"],
+    "posicao": [0, 2, 0, 0, 0, 0],
+    "dedos": [0, 2, 0, 0, 0, 0],
+    "explicacao": "Acorde de Mi menor com sétima."
+  },
+  "Fm7": {
+    "nome": "Fá menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["F", "G#", "C", "D#"],
+    "posicao": [1, 3, 1, 1, 1, 1],
+    "dedos": [1, 3, 1, 1, 1, 1],
+    "explicacao": "Acorde de Fá menor com sétima."
+  },
+  "Gm7": {
+    "nome": "Sol menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["G", "A#", "D", "F"],
+    "posicao": [3, 1, 3, 3, 3, 3],
+    "dedos": [2, 1, 3, 3, 3, 3],
+    "explicacao": "Acorde de Sol menor com sétima."
+  },
+  "Am7": {
+    "nome": "Lá menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["A", "C", "E", "G"],
+    "posicao": [-1, 0, 2, 0, 1, 0],
+    "dedos": [0, 0, 2, 0, 1, 0],
+    "explicacao": "Acorde de Lá menor com sétima."
+  },
+  "Bm7": {
+    "nome": "Si menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["B", "D", "F#", "A"],
+    "posicao": [-1, 2, 0, 2, 0, 2],
+    "dedos": [0, 2, 0, 3, 0, 4],
+    "explicacao": "Acorde de Si menor com sétima."
+  },
+  
+
+  "C#": {
+    "nome": "Dó sustenido maior",
+    "tipo": "Maior",
+    "notas": ["C#", "F", "G#"],
+    "posicao": [-1, 4, 3, 1, 2, 1],
+    "dedos": [0, 4, 3, 1, 2, 1],
+    "explicacao": "Acorde maior de Dó sustenido."
+  },
+  "D#": {
+    "nome": "Ré sustenido maior",
+    "tipo": "Maior",
+    "notas": ["D#", "G", "A#"],
+    "posicao": [-1, 6, 8, 8, 8, 6],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde maior de Ré sustenido, com pestana."
+  },
+  "F#": {
+    "nome": "Fá sustenido maior",
+    "tipo": "Maior",
+    "notas": ["F#", "A#", "C#"],
+    "posicao": [2, 4, 4, 3, 2, 2],
+    "dedos": [1, 3, 4, 2, 1, 1],
+    "explicacao": "Acorde maior de Fá sustenido, com pestana."
+  },
+  "G#": {
+    "nome": "Sol sustenido maior",
+    "tipo": "Maior",
+    "notas": ["G#", "C", "D#"],
+    "posicao": [4, 6, 6, 5, 4, 4],
+    "dedos": [1, 3, 4, 2, 1, 1],
+    "explicacao": "Acorde maior de Sol sustenido, com pestana."
+  },
+  "A#": {
+    "nome": "Lá sustenido maior",
+    "tipo": "Maior",
+    "notas": ["A#", "D", "F"],
+    "posicao": [-1, 1, 3, 3, 3, 1],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde maior de Lá sustenido, com pestana."
+  },
+  "C#m": {
+    "nome": "Dó sustenido menor",
+    "tipo": "Menor",
+    "notas": ["C#", "E", "G#"],
+    "posicao": [-1, 4, 2, 1, 2, 0],
+    "dedos": [0, 3, 2, 1, 4, 0],
+    "explicacao": "Acorde menor de Dó sustenido."
+  },
+  "D#m": {
+    "nome": "Ré sustenido menor",
+    "tipo": "Menor",
+    "notas": ["D#", "F#", "A#"],
+    "posicao": [-1, 6, 8, 8, 7, 6],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde menor de Ré sustenido, com pestana."
+  },
+  "F#m": {
+    "nome": "Fá sustenido menor",
+    "tipo": "Menor",
+    "notas": ["F#", "A", "C#"],
+    "posicao": [2, 4, 4, 2, 2, 2],
+    "dedos": [1, 3, 4, 1, 1, 1],
+    "explicacao": "Acorde menor de Fá sustenido, com pestana."
+  },
+  "G#m": {
+    "nome": "Sol sustenido menor",
+    "tipo": "Menor",
+    "notas": ["G#", "B", "D#"],
+    "posicao": [4, 6, 6, 4, 4, 4],
+    "dedos": [1, 3, 4, 1, 1, 1],
+    "explicacao": "Acorde menor de Sol sustenido, com pestana."
+  },
+  "A#m": {
+    "nome": "Lá sustenido menor",
+    "tipo": "Menor",
+    "notas": ["A#", "C#", "F"],
+    "posicao": [-1, 1, 3, 3, 2, 1],
+    "dedos": [0, 1, 3, 4, 2, 1],
+    "explicacao": "Acorde menor de Lá sustenido, com pestana."
+  },
+  "C#7": {
+    "nome": "Dó sustenido com sétima",
+    "tipo": "Sétima",
+    "notas": ["C#", "F", "G#", "B"],
+    "posicao": [-1, 4, 3, 4, 2, 0],
+    "dedos": [0, 3, 2, 4, 1, 0],
+    "explicacao": "Acorde de Dó sustenido com sétima."
+  },
+  "D#7": {
+    "nome": "Ré sustenido com sétima",
+    "tipo": "Sétima",
+    "notas": ["D#", "G", "A#", "C#"],
+    "posicao": [-1, 6, 5, 6, 4, 0],
+    "dedos": [0, 3, 2, 4, 1, 0],
+    "explicacao": "Acorde de Ré sustenido com sétima."
+  },
+  "F#7": {
+    "nome": "Fá sustenido com sétima",
+    "tipo": "Sétima",
+    "notas": ["F#", "A#", "C#", "E"],
+    "posicao": [2, 4, 2, 3, 2, 2],
+    "dedos": [1, 3, 1, 2, 1, 1],
+    "explicacao": "Acorde de Fá sustenido com sétima."
+  },
+  "G#7": {
+    "nome": "Sol sustenido com sétima",
+    "tipo": "Sétima",
+    "notas": ["G#", "C", "D#", "F#"],
+    "posicao": [4, 6, 4, 5, 4, 4],
+    "dedos": [1, 3, 1, 2, 1, 1],
+    "explicacao": "Acorde de Sol sustenido com sétima."
+  },
+  "A#7": {
+    "nome": "Lá sustenido com sétima",
+    "tipo": "Sétima",
+    "notas": ["A#", "D", "F", "G#"],
+    "posicao": [-1, 1, 3, 1, 3, 1],
+    "dedos": [0, 1, 3, 1, 4, 1],
+    "explicacao": "Acorde de Lá sustenido com sétima."
+  },
+  "C#m7": {
+    "nome": "Dó sustenido menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["C#", "E", "G#", "B"],
+    "posicao": [-1, 4, 2, 4, 2, 0],
+    "dedos": [0, 3, 1, 4, 2, 0],
+    "explicacao": "Acorde de Dó sustenido menor com sétima."
+  },
+  "D#m7": {
+    "nome": "Ré sustenido menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["D#", "F#", "A#", "C#"],
+    "posicao": [-1, 6, 4, 6, 4, 0],
+    "dedos": [0, 3, 1, 4, 2, 0],
+    "explicacao": "Acorde de Ré sustenido menor com sétima."
+  },
+  "F#m7": {
+    "nome": "Fá sustenido menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["F#", "A", "C#", "E"],
+    "posicao": [2, 4, 2, 2, 2, 2],
+    "dedos": [1, 3, 1, 1, 1, 1],
+    "explicacao": "Acorde de Fá sustenido menor com sétima."
+  },
+  "G#m7": {
+    "nome": "Sol sustenido menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["G#", "B", "D#", "F#"],
+    "posicao": [4, 6, 4, 4, 4, 4],
+    "dedos": [1, 3, 1, 1, 1, 1],
+    "explicacao": "Acorde de Sol sustenido menor com sétima."
+  },
+  "A#m7": {
+    "nome": "Lá sustenido menor com sétima",
+    "tipo": "Menor com sétima",
+    "notas": ["A#", "C#", "F", "G#"],
+    "posicao": [-1, 1, 3, 1, 2, 1],
+    "dedos": [0, 1, 3, 1, 2, 1],
+    "explicacao": "Acorde de Lá sustenido menor com sétima."
+  }
+
+
+}
