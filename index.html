@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guitar Chord Master</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>🎸 Guitar Chord Master</h1>
+        <p>Seu guia de acordes, escalas e guitarra.</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#acordes">Acordes</a>
+            <a href="#braco">Braço da guitarra</a>
+            <a href="#escalas">Escalas</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+
+        <!-- APRESENTAÇÃO E BUSCA DE ACORDES -->
+        <section class="apresentacao">
+
+            <h2>Explore o mundo da guitarra</h2>
+
+            <p>
+                Aprenda acordes, descubra escalas e conheça
+                melhor cada nota do braço da guitarra.
+            </p>
+
+            <input
+                type="search"
+                id="busca"
+                placeholder="Ex.: C, Am, G7..."
+                aria-label="Buscar acorde"
+            >
+
+            <button id="botao-buscar">
+                Buscar acorde
+            </button>
+
+            <p id="resultado" aria-live="polite"></p>
+
+            <div id="diagrama-acorde"></div>
+
+        </section>
+
+        <!-- RECURSOS DO GUITAR CHORD MASTER -->
+        <section class="recursos">
+
+            <!-- CARD DE PROGRESSÕES -->
+            <article class="card" id="acordes">
+
+                <h3>Progressões de Acordes</h3>
+
+                <p>
+                    Descubra sequências de acordes para criar
+                    suas próprias músicas.
+                </p>
+
+                <div id="lista-progressoes">
+                    <p>As progressões aparecerão aqui.</p>
+                </div>
+
+            </article>
+
+            <!-- CARD DO AFINADOR -->
+            <article class="card" id="afinador">
+
+                <h3>Afinador de Guitarra</h3>
+
+                <p>
+                    Toque uma corda e veja se ela está afinada.
+                </p>
+
+                <button id="iniciar-afinador" type="button">
+                    Iniciar Afinador
+                </button>
+
+                <div id="resultado-afinador">
+                    <h2>--</h2>
+                    <p>Aguardando som...</p>
+                </div>
+
+            </article>
+
+            <!-- CARD DO BRAÇO INTERATIVO -->
+            <article class="card" id="braco">
+
+                <section id="braco-interativo" class="braco-container">
+
+                    <h2>Braço Interativo</h2>
+
+                    <p>
+                        Afinação padrão: E - A - D - G - B - E
+                    </p>
+
+                    <div id="braco-guitarra">
+                        <!-- O JavaScript desenha o braço aqui -->
+                    </div>
+
+                    <p id="nota-selecionada">
+                        Clique em uma casa para visualizar a nota.
+                    </p>
+
+                </section>
+
+            </article>
+
+            <!-- CARD DE ESCALAS -->
+            <article class="card" id="escalas">
+
+                <h3>Escalas Musicais</h3>
+
+                <p>
+                    Escolha uma escala para visualizar suas notas
+                    no braço da guitarra.
+                </p>
+
+                <label for="seletor-escala">
+                    Selecione uma escala:
+                </label>
+
+                <select id="seletor-escala">
+
+                    <option value="">Escolha uma escala</option>
+
+                    <option value="C">Dó maior (C)</option>
+                    <option value="G">Sol maior (G)</option>
+                    <option value="D">Ré maior (D)</option>
+                    <option value="A">Lá maior (A)</option>
+                    <option value="E">Mi maior (E)</option>
+                    <option value="B">Si maior (B)</option>
+                    <option value="F">Fá maior (F)</option>
+
+                    <option value="Am">Lá menor (Am)</option>
+                    <option value="Em">Mi menor (Em)</option>
+                    <option value="Dm">Ré menor (Dm)</option>
+                    <option value="Bm">Si menor (Bm)</option>
+                    <option value="F#m">Fá sustenido menor (F#m)</option>
+
+                </select>
+
+                <div id="informacao-escala">
+                    <p>As informações da escala aparecerão aqui.</p>
+                </div>
+
+                <div id="acordes-da-escala"></div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Copyright © 2026 Todos os Direitos Reservados dev Jessé Bruno
+
+        </p>
+    </footer>
+
+</body>
+
+</html>
